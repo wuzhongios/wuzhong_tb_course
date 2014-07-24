@@ -7,6 +7,7 @@
 //
 
 #import "WzAppDelegate.h"
+#import "ItemCell.h"
 
 @implementation WzAppDelegate
 
@@ -16,8 +17,49 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+    
+    
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, 320, self.window.frame.size.height - 20) style:UITableViewStylePlain];
+    
+    self.tableView.delegate = self;
+    
+    self.tableView.dataSource = self;
+    
+    [self.window addSubview:self.tableView];
+    
     return YES;
 }
+
+
+- (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView{
+    
+    return 1;
+    
+}
+
+- (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section{
+    
+    return 20;
+}
+
+
+- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+//    ItemCell *cell = [ItemCell alloc] initWithStyle:<#(UITableViewCellStyle)#> reuseIdentifier:<#(NSString *)#>
+//    
+//    return cell;
+    
+    UITableViewCell *cell = [[UITableViewCell alloc] init];
+    
+    
+    
+    cell.textLabel.text = [NSString stringWithFormat:@"this is cell (section = %d,row = %d)", indexPath.section,indexPath.row];
+    
+    return cell;
+
+    
+}
+
 
 - (void)applicationWillResignActive:(UIApplication *)application
 {

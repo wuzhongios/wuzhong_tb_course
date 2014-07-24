@@ -19,6 +19,10 @@
 		088BCB0919812D80008709EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088BCAF119812D80008709EE /* UIKit.framework */; };
 		088BCB1119812D80008709EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 088BCB0F19812D80008709EE /* InfoPlist.strings */; };
 		088BCB1319812D80008709EE /* wuzhong_tbfavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BCB1219812D80008709EE /* wuzhong_tbfavTests.m */; };
+		088BCB1F19812DD2008709EE /* hezi0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 088BCB1C19812DD2008709EE /* hezi0.jpg */; };
+		088BCB2019812DD2008709EE /* hezi1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 088BCB1D19812DD2008709EE /* hezi1.jpg */; };
+		088BCB2119812DD2008709EE /* hezi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 088BCB1E19812DD2008709EE /* hezi2.jpg */; };
+		088BCB2419812E22008709EE /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BCB2319812E22008709EE /* ItemCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,11 @@
 		088BCB0E19812D80008709EE /* wuzhong_tbfavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wuzhong_tbfavTests-Info.plist"; sourceTree = "<group>"; };
 		088BCB1019812D80008709EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		088BCB1219812D80008709EE /* wuzhong_tbfavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wuzhong_tbfavTests.m; sourceTree = "<group>"; };
+		088BCB1C19812DD2008709EE /* hezi0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hezi0.jpg; path = "../../../../AliDrive/我的团队协作区/无线训练营（杭州）/iOS基础班（第一期）/【3】scrollView&tableview（君展）/图片资源/hezi0.jpg"; sourceTree = "<group>"; };
+		088BCB1D19812DD2008709EE /* hezi1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hezi1.jpg; path = "../../../../AliDrive/我的团队协作区/无线训练营（杭州）/iOS基础班（第一期）/【3】scrollView&tableview（君展）/图片资源/hezi1.jpg"; sourceTree = "<group>"; };
+		088BCB1E19812DD2008709EE /* hezi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hezi2.jpg; path = "../../../../AliDrive/我的团队协作区/无线训练营（杭州）/iOS基础班（第一期）/【3】scrollView&tableview（君展）/图片资源/hezi2.jpg"; sourceTree = "<group>"; };
+		088BCB2219812E22008709EE /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemCell.h; sourceTree = "<group>"; };
+		088BCB2319812E22008709EE /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,10 +116,15 @@
 		088BCAF319812D80008709EE /* wuzhong_tbfav */ = {
 			isa = PBXGroup;
 			children = (
+				088BCB1C19812DD2008709EE /* hezi0.jpg */,
+				088BCB1D19812DD2008709EE /* hezi1.jpg */,
+				088BCB1E19812DD2008709EE /* hezi2.jpg */,
 				088BCAFC19812D80008709EE /* WzAppDelegate.h */,
 				088BCAFD19812D80008709EE /* WzAppDelegate.m */,
 				088BCAFF19812D80008709EE /* Images.xcassets */,
 				088BCAF419812D80008709EE /* Supporting Files */,
+				088BCB2219812E22008709EE /* ItemCell.h */,
+				088BCB2319812E22008709EE /* ItemCell.m */,
 			);
 			path = wuzhong_tbfav;
 			sourceTree = "<group>";
@@ -221,7 +235,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				088BCAF819812D80008709EE /* InfoPlist.strings in Resources */,
+				088BCB2019812DD2008709EE /* hezi1.jpg in Resources */,
+				088BCB1F19812DD2008709EE /* hezi0.jpg in Resources */,
 				088BCB0019812D80008709EE /* Images.xcassets in Resources */,
+				088BCB2119812DD2008709EE /* hezi2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -240,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				088BCB2419812E22008709EE /* ItemCell.m in Sources */,
 				088BCAFA19812D80008709EE /* main.m in Sources */,
 				088BCAFE19812D80008709EE /* WzAppDelegate.m in Sources */,
 			);
