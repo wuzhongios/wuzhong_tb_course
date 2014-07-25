@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0829A7101982C06700A3A9C6 /* hezi0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0829A70D1982C06700A3A9C6 /* hezi0.jpg */; };
+		0829A7111982C06700A3A9C6 /* hezi1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0829A70E1982C06700A3A9C6 /* hezi1.jpg */; };
+		0829A7121982C06700A3A9C6 /* hezi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 0829A70F1982C06700A3A9C6 /* hezi2.jpg */; };
+		0829A7151982C07400A3A9C6 /* YFJLeftSwipeDeleteTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0829A7141982C07400A3A9C6 /* YFJLeftSwipeDeleteTableView.m */; };
+		0829A71B1982C09400A3A9C6 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 0829A7181982C09400A3A9C6 /* UIScrollView+SVInfiniteScrolling.m */; };
+		0829A71C1982C09400A3A9C6 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 0829A71A1982C09400A3A9C6 /* UIScrollView+SVPullToRefresh.m */; };
 		088BCAEE19812D80008709EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088BCAED19812D80008709EE /* Foundation.framework */; };
 		088BCAF019812D80008709EE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088BCAEF19812D80008709EE /* CoreGraphics.framework */; };
 		088BCAF219812D80008709EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088BCAF119812D80008709EE /* UIKit.framework */; };
@@ -19,14 +25,8 @@
 		088BCB0919812D80008709EE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 088BCAF119812D80008709EE /* UIKit.framework */; };
 		088BCB1119812D80008709EE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 088BCB0F19812D80008709EE /* InfoPlist.strings */; };
 		088BCB1319812D80008709EE /* wuzhong_tbfavTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BCB1219812D80008709EE /* wuzhong_tbfavTests.m */; };
-		088BCB1F19812DD2008709EE /* hezi0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 088BCB1C19812DD2008709EE /* hezi0.jpg */; };
-		088BCB2019812DD2008709EE /* hezi1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 088BCB1D19812DD2008709EE /* hezi1.jpg */; };
-		088BCB2119812DD2008709EE /* hezi2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 088BCB1E19812DD2008709EE /* hezi2.jpg */; };
 		088BCB2419812E22008709EE /* ItemCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 088BCB2319812E22008709EE /* ItemCell.m */; };
-		088CA5111982942800CB9694 /* UIScrollView+SVInfiniteScrolling.m in Sources */ = {isa = PBXBuildFile; fileRef = 088CA50E1982942800CB9694 /* UIScrollView+SVInfiniteScrolling.m */; };
-		088CA5121982942800CB9694 /* UIScrollView+SVPullToRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 088CA5101982942800CB9694 /* UIScrollView+SVPullToRefresh.m */; };
 		088CA51A198297C500CB9694 /* ItemModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 088CA519198297C500CB9694 /* ItemModel.m */; };
-		088CA51E1982ACFE00CB9694 /* YFJLeftSwipeDeleteTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = 088CA51D1982ACFE00CB9694 /* YFJLeftSwipeDeleteTableView.m */; };
 		088CA5221982AE0700CB9694 /* TbFavouriteViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 088CA5211982AE0700CB9694 /* TbFavouriteViewController.m */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +41,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0829A70D1982C06700A3A9C6 /* hezi0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hezi0.jpg; sourceTree = "<group>"; };
+		0829A70E1982C06700A3A9C6 /* hezi1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hezi1.jpg; sourceTree = "<group>"; };
+		0829A70F1982C06700A3A9C6 /* hezi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = hezi2.jpg; sourceTree = "<group>"; };
+		0829A7131982C07400A3A9C6 /* YFJLeftSwipeDeleteTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YFJLeftSwipeDeleteTableView.h; sourceTree = "<group>"; };
+		0829A7141982C07400A3A9C6 /* YFJLeftSwipeDeleteTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YFJLeftSwipeDeleteTableView.m; sourceTree = "<group>"; };
+		0829A7161982C09400A3A9C6 /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SVPullToRefresh.h; path = wuzhong_tbfav/libs/SVPullToRefresh/SVPullToRefresh.h; sourceTree = SOURCE_ROOT; };
+		0829A7171982C09400A3A9C6 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SVInfiniteScrolling.h"; path = "wuzhong_tbfav/libs/SVPullToRefresh/UIScrollView+SVInfiniteScrolling.h"; sourceTree = SOURCE_ROOT; };
+		0829A7181982C09400A3A9C6 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SVInfiniteScrolling.m"; path = "wuzhong_tbfav/libs/SVPullToRefresh/UIScrollView+SVInfiniteScrolling.m"; sourceTree = SOURCE_ROOT; };
+		0829A7191982C09400A3A9C6 /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+SVPullToRefresh.h"; path = "wuzhong_tbfav/libs/SVPullToRefresh/UIScrollView+SVPullToRefresh.h"; sourceTree = SOURCE_ROOT; };
+		0829A71A1982C09400A3A9C6 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+SVPullToRefresh.m"; path = "wuzhong_tbfav/libs/SVPullToRefresh/UIScrollView+SVPullToRefresh.m"; sourceTree = SOURCE_ROOT; };
 		088BCAEA19812D80008709EE /* wuzhong_tbfav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wuzhong_tbfav.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		088BCAED19812D80008709EE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		088BCAEF19812D80008709EE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -57,20 +67,10 @@
 		088BCB0E19812D80008709EE /* wuzhong_tbfavTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "wuzhong_tbfavTests-Info.plist"; sourceTree = "<group>"; };
 		088BCB1019812D80008709EE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		088BCB1219812D80008709EE /* wuzhong_tbfavTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = wuzhong_tbfavTests.m; sourceTree = "<group>"; };
-		088BCB1C19812DD2008709EE /* hezi0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hezi0.jpg; path = "../../../../../AliDrive/我的团队协作区/无线训练营（杭州）/iOS基础班（第一期）/【3】scrollView&tableview（君展）/图片资源/hezi0.jpg"; sourceTree = "<group>"; };
-		088BCB1D19812DD2008709EE /* hezi1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hezi1.jpg; path = "../../../../../AliDrive/我的团队协作区/无线训练营（杭州）/iOS基础班（第一期）/【3】scrollView&tableview（君展）/图片资源/hezi1.jpg"; sourceTree = "<group>"; };
-		088BCB1E19812DD2008709EE /* hezi2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = hezi2.jpg; path = "../../../../../AliDrive/我的团队协作区/无线训练营（杭州）/iOS基础班（第一期）/【3】scrollView&tableview（君展）/图片资源/hezi2.jpg"; sourceTree = "<group>"; };
 		088BCB2219812E22008709EE /* ItemCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ItemCell.h; path = ../ItemCell.h; sourceTree = "<group>"; };
 		088BCB2319812E22008709EE /* ItemCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItemCell.m; path = ../ItemCell.m; sourceTree = "<group>"; };
-		088CA50C1982942800CB9694 /* SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVPullToRefresh.h; sourceTree = "<group>"; };
-		088CA50D1982942800CB9694 /* UIScrollView+SVInfiniteScrolling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVInfiniteScrolling.h"; sourceTree = "<group>"; };
-		088CA50E1982942800CB9694 /* UIScrollView+SVInfiniteScrolling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVInfiniteScrolling.m"; sourceTree = "<group>"; };
-		088CA50F1982942800CB9694 /* UIScrollView+SVPullToRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+SVPullToRefresh.h"; sourceTree = "<group>"; };
-		088CA5101982942800CB9694 /* UIScrollView+SVPullToRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+SVPullToRefresh.m"; sourceTree = "<group>"; };
 		088CA518198297C500CB9694 /* ItemModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemModel.h; sourceTree = "<group>"; };
 		088CA519198297C500CB9694 /* ItemModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemModel.m; sourceTree = "<group>"; };
-		088CA51C1982ACFE00CB9694 /* YFJLeftSwipeDeleteTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = YFJLeftSwipeDeleteTableView.h; path = ../../../../../../github/YFJLeftSwipeDeleteTableView/YFJLeftSwipeDeleteTableView/YFJLeftSwipeDeleteTableView.h; sourceTree = "<group>"; };
-		088CA51D1982ACFE00CB9694 /* YFJLeftSwipeDeleteTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = YFJLeftSwipeDeleteTableView.m; path = ../../../../../../github/YFJLeftSwipeDeleteTableView/YFJLeftSwipeDeleteTableView/YFJLeftSwipeDeleteTableView.m; sourceTree = "<group>"; };
 		088CA5201982AE0700CB9694 /* TbFavouriteViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TbFavouriteViewController.h; sourceTree = "<group>"; };
 		088CA5211982AE0700CB9694 /* TbFavouriteViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TbFavouriteViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -175,9 +175,9 @@
 		088CA5091982922800CB9694 /* images */ = {
 			isa = PBXGroup;
 			children = (
-				088BCB1C19812DD2008709EE /* hezi0.jpg */,
-				088BCB1D19812DD2008709EE /* hezi1.jpg */,
-				088BCB1E19812DD2008709EE /* hezi2.jpg */,
+				0829A70D1982C06700A3A9C6 /* hezi0.jpg */,
+				0829A70E1982C06700A3A9C6 /* hezi1.jpg */,
+				0829A70F1982C06700A3A9C6 /* hezi2.jpg */,
 			);
 			path = images;
 			sourceTree = "<group>";
@@ -194,11 +194,11 @@
 		088CA50B1982942800CB9694 /* SVPullToRefresh */ = {
 			isa = PBXGroup;
 			children = (
-				088CA50C1982942800CB9694 /* SVPullToRefresh.h */,
-				088CA50D1982942800CB9694 /* UIScrollView+SVInfiniteScrolling.h */,
-				088CA50E1982942800CB9694 /* UIScrollView+SVInfiniteScrolling.m */,
-				088CA50F1982942800CB9694 /* UIScrollView+SVPullToRefresh.h */,
-				088CA5101982942800CB9694 /* UIScrollView+SVPullToRefresh.m */,
+				0829A7161982C09400A3A9C6 /* SVPullToRefresh.h */,
+				0829A7171982C09400A3A9C6 /* UIScrollView+SVInfiniteScrolling.h */,
+				0829A7181982C09400A3A9C6 /* UIScrollView+SVInfiniteScrolling.m */,
+				0829A7191982C09400A3A9C6 /* UIScrollView+SVPullToRefresh.h */,
+				0829A71A1982C09400A3A9C6 /* UIScrollView+SVPullToRefresh.m */,
 			);
 			name = SVPullToRefresh;
 			path = ../../../../../github/SVPullToRefresh/SVPullToRefresh;
@@ -219,8 +219,8 @@
 		088CA51B1982ACF700CB9694 /* leftswipe */ = {
 			isa = PBXGroup;
 			children = (
-				088CA51C1982ACFE00CB9694 /* YFJLeftSwipeDeleteTableView.h */,
-				088CA51D1982ACFE00CB9694 /* YFJLeftSwipeDeleteTableView.m */,
+				0829A7131982C07400A3A9C6 /* YFJLeftSwipeDeleteTableView.h */,
+				0829A7141982C07400A3A9C6 /* YFJLeftSwipeDeleteTableView.m */,
 			);
 			path = leftswipe;
 			sourceTree = "<group>";
@@ -312,10 +312,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				088BCAF819812D80008709EE /* InfoPlist.strings in Resources */,
-				088BCB2019812DD2008709EE /* hezi1.jpg in Resources */,
-				088BCB1F19812DD2008709EE /* hezi0.jpg in Resources */,
+				0829A7111982C06700A3A9C6 /* hezi1.jpg in Resources */,
+				0829A7101982C06700A3A9C6 /* hezi0.jpg in Resources */,
 				088BCB0019812D80008709EE /* Images.xcassets in Resources */,
-				088BCB2119812DD2008709EE /* hezi2.jpg in Resources */,
+				0829A7121982C06700A3A9C6 /* hezi2.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,13 +335,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				088CA5221982AE0700CB9694 /* TbFavouriteViewController.m in Sources */,
-				088CA51E1982ACFE00CB9694 /* YFJLeftSwipeDeleteTableView.m in Sources */,
 				088CA51A198297C500CB9694 /* ItemModel.m in Sources */,
-				088CA5111982942800CB9694 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
+				0829A7151982C07400A3A9C6 /* YFJLeftSwipeDeleteTableView.m in Sources */,
 				088BCB2419812E22008709EE /* ItemCell.m in Sources */,
+				0829A71C1982C09400A3A9C6 /* UIScrollView+SVPullToRefresh.m in Sources */,
 				088BCAFA19812D80008709EE /* main.m in Sources */,
+				0829A71B1982C09400A3A9C6 /* UIScrollView+SVInfiniteScrolling.m in Sources */,
 				088BCAFE19812D80008709EE /* WzAppDelegate.m in Sources */,
-				088CA5121982942800CB9694 /* UIScrollView+SVPullToRefresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

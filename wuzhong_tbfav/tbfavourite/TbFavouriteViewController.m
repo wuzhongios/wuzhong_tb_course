@@ -34,6 +34,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    self.title = @"my favourites";
+    
     CGRect frame = self.view.bounds;
     self.tableView = [[YFJLeftSwipeDeleteTableView alloc] initWithFrame:frame];
     
@@ -58,6 +60,8 @@
     [self.tableView addInfiniteScrollingWithActionHandler:^{
         [weakSelf insertRowAtBottom];
     }];
+    
+    [self.tableView registerClass:[ItemCell class] forCellReuseIdentifier:@"Cell"];
 
     
 }
@@ -167,9 +171,14 @@
 
 
 
-- (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+- (UITableViewCell *)tableView:(UITableView *)tableViewP cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     
-    ItemCell *cell = [[ItemCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"ItemCell"];
+//    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+    
+    static NSString *CellIdentifier = @"Cell";
+    
+    ItemCell *cell = [tableViewP dequeueReusableCellWithIdentifier:CellIdentifier forIndexPath:indexPath];
+//    [[ItemCell alloc] initWithStyle:UITableViewCellStyleDefault reuseIdentifier:@"ItemCell"];
     
     ItemModel *model = [_dataSource objectAtIndex:indexPath.row];
     
@@ -178,14 +187,27 @@
     
     return cell;
     
-    //    UITableViewCell *cell = [[UITableViewCell alloc] init];
-    //
-    //
-    //
-    //    cell.textLabel.text = [NSString stringWithFormat:@"this is cell (section = %d,row = %d)", indexPath.section,indexPath.row];
-    //    
-    //    return cell;
     
+}
+
+// Override to support conditional editing of the table view.
+- (BOOL)tableView:(UITableView *)tableView canEditRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    // Return NO if you do not want the specified item to be editable.
+    return YES;
+}
+
+// Override to support editing the table view.
+- (void)tableView:(UITableView *)tableViewP commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        // Delete the row from the data source
+        [_dataSource removeObjectAtIndex:indexPath.row];
+        [tableViewP deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationFade];
+    }
+    else if (editingStyle == UITableViewCellEditingStyleInsert) {
+        // Create a new instance of the appropriate class, insert it into the array, and add a new row to the table view
+    }
 }
 
 
