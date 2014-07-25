@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>3406A052-0D3E-4747-8FC9-A005F994E3A4</string>
+	<key>IDESourceControlProjectName</key>
+	<string>wuzhong_tbfav</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1E896ACA-5322-4EB4-A6EF-7D6B1D62EAE8</key>
+		<string>ssh://github.com/samvermette/SVPullToRefresh.git</string>
+		<key>9667B6A4-DD53-47D8-9BA5-24AAB0103F9C</key>
+		<string>ssh://github.com/yfujiki/YFJLeftSwipeDeleteTableView.git</string>
+		<key>BF647524-C3B7-435B-BCC3-0A87A15EF456</key>
+		<string>ssh://github.com/wuzhongios/wuzhong_tb_course.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>wuzhong_tbfav.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1E896ACA-5322-4EB4-A6EF-7D6B1D62EAE8</key>
+		<string>../../../../../github/SVPullToRefresh</string>
+		<key>9667B6A4-DD53-47D8-9BA5-24AAB0103F9C</key>
+		<string>../../../../../github/YFJLeftSwipeDeleteTableView</string>
+		<key>BF647524-C3B7-435B-BCC3-0A87A15EF456</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/wuzhongios/wuzhong_tb_course.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>BF647524-C3B7-435B-BCC3-0A87A15EF456</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1E896ACA-5322-4EB4-A6EF-7D6B1D62EAE8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SVPullToRefresh</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>BF647524-C3B7-435B-BCC3-0A87A15EF456</string>
+			<key>IDESourceControlWCCName</key>
+			<string>wuzhong_tbfav</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9667B6A4-DD53-47D8-9BA5-24AAB0103F9C</string>
+			<key>IDESourceControlWCCName</key>
+			<string>YFJLeftSwipeDeleteTableView</string>
+		</dict>
+	</array>
+</dict>
+</plist>

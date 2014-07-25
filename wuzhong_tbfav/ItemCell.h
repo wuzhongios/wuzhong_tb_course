@@ -7,16 +7,19 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ItemModel.h"
 
 @interface ItemCell : UITableViewCell
 
-@property UIImage *image;
+@property (nonatomic) UIImageView *image;
 
-@property UILabel *title;
+@property (nonatomic) UILabel *title;
 
 @property UILabel *price;
 
+@property UILabel *fav;
 
-- (void) setData : (NSString *) url andTitle : (NSString *) title andPrice : (NSString *) price;
+
+- (void) setData : (ItemModel *) model;
 
 @end

@@ -8,10 +8,9 @@
 
 #import <UIKit/UIKit.h>
 
-@interface WzAppDelegate : UIResponder <UIApplicationDelegate,UITableViewDelegate,UITableViewDataSource>
+@interface WzAppDelegate : UIResponder <UIApplicationDelegate>
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property UITableView *tableView;
 
 @end
